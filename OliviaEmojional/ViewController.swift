@@ -16,6 +16,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func showMessage(sender: UIButton) {
+       let alertController = UIAlertController(title: "WEATHER ALERT", message: "...", preferredStyle: UIAlertController.Style.alert)
+        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+        
+        present(alertController, animated: true, completion: nil)
         
     }
 

@@ -25,50 +25,89 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UFI-gQ-4w9">
-                                <rect key="frame" x="38" y="335" width="103" height="85"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blue-sky-with-cloud-background_46250-1786" translatesAutoresizingMaskIntoConstraints="NO" id="3B8-rJ-Lv8">
+                                <rect key="frame" x="-229" y="-29" width="873" height="925"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UFI-gQ-4w9">
+                                <rect key="frame" x="32" y="370" width="86" height="108"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <state key="normal" title="🌧"/>
                                 <connections>
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oTM-fe-OPh"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r78-51-QAT">
-                                <rect key="frame" x="269" y="342" width="103" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r78-51-QAT">
+                                <rect key="frame" x="258" y="370" width="86" height="108"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <state key="normal" title="❄️"/>
                                 <connections>
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zs1-ad-Uxq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QCK-hx-N5y">
-                                <rect key="frame" x="146" y="242" width="103" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QCK-hx-N5y">
+                                <rect key="frame" x="70" y="227" width="274" height="108"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <state key="normal" title="☀️"/>
                                 <connections>
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PKt-2q-czN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cFb-8o-hSL">
-                                <rect key="frame" x="146" y="458" width="103" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cFb-8o-hSL">
+                                <rect key="frame" x="135" y="478" width="96" height="129"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <state key="normal" title="🌪"/>
                                 <connections>
                                     <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z5N-8w-jgf"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="OLIVIA'S" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mYO-BZ-nDC">
+                                <rect key="frame" x="129" y="69" width="165" height="52"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="47"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="FORECAST" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2AA-Nn-5kV">
+                                <rect key="frame" x="87" y="129" width="241" height="65"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="59"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.81548394097222221" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cFb-8o-hSL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1TD-4b-U03"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cFb-8o-hSL" secondAttribute="trailing" constant="155" id="5ed-TR-UlH"/>
+                            <constraint firstItem="QCK-hx-N5y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="8o2-Uc-Gsr"/>
+                            <constraint firstItem="2AA-Nn-5kV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="63" id="9Ok-wi-gqs"/>
+                            <constraint firstItem="2AA-Nn-5kV" firstAttribute="top" secondItem="mYO-BZ-nDC" secondAttribute="bottom" constant="8" id="BHz-LV-yVC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="r78-51-QAT" secondAttribute="trailing" constant="32" id="Bjo-6U-hxN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mYO-BZ-nDC" secondAttribute="trailing" constant="105" id="C8I-33-T6p"/>
+                            <constraint firstItem="mYO-BZ-nDC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="105" id="CEc-Ad-Rx7"/>
+                            <constraint firstItem="cFb-8o-hSL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="156" id="Flv-DH-81p"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QCK-hx-N5y" secondAttribute="trailing" constant="70" id="G4i-hg-rXy"/>
+                            <constraint firstItem="UFI-gQ-4w9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="N7C-Vn-EAd"/>
+                            <constraint firstItem="2AA-Nn-5kV" firstAttribute="top" secondItem="mYO-BZ-nDC" secondAttribute="bottom" constant="8" id="Uzl-vB-he0"/>
+                            <constraint firstItem="r78-51-QAT" firstAttribute="top" secondItem="QCK-hx-N5y" secondAttribute="bottom" constant="35" id="V6a-4R-OjS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2AA-Nn-5kV" secondAttribute="trailing" constant="71" id="Yac-6E-9OM"/>
+                            <constraint firstItem="r78-51-QAT" firstAttribute="leading" secondItem="UFI-gQ-4w9" secondAttribute="trailing" constant="140" id="awk-nR-mAd"/>
+                            <constraint firstItem="mYO-BZ-nDC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="93" id="bDf-5g-X06"/>
+                            <constraint firstItem="cFb-8o-hSL" firstAttribute="top" secondItem="QCK-hx-N5y" secondAttribute="bottom" constant="164" id="dbo-eu-yaZ"/>
+                            <constraint firstItem="QCK-hx-N5y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nS3-Mk-jiV"/>
+                            <constraint firstItem="UFI-gQ-4w9" firstAttribute="top" secondItem="QCK-hx-N5y" secondAttribute="bottom" constant="35" id="nsJ-82-OzL"/>
+                            <constraint firstItem="mYO-BZ-nDC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pjV-NO-liK"/>
+                            <constraint firstItem="QCK-hx-N5y" firstAttribute="top" secondItem="mYO-BZ-nDC" secondAttribute="bottom" constant="38" id="yTd-cx-8rd"/>
+                            <constraint firstItem="r78-51-QAT" firstAttribute="leading" secondItem="UFI-gQ-4w9" secondAttribute="trailing" constant="140" id="ypb-R9-GA7"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-79.710144927536234" y="133.25892857142856"/>
+            <point key="canvasLocation" x="-80.799999999999997" y="132.68365817091455"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="blue-sky-with-cloud-background_46250-1786" width="338" height="338"/>
+    </resources>
 </document>
